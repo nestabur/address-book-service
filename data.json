@@ -1,6 +1,6 @@
 {
   "ids": {
-    "User": 2,
+    "User": 3,
     "AccessToken": 1,
     "ACL": 1,
     "RoleMapping": 1,
@@ -9,7 +9,8 @@
   },
   "models": {
     "User": {
-      "1": "{\"password\":\"$2a$10$K/FkTPXVRB9kMOBtNMo3KeFVAcz7oaQa49HVX5dbhCTn6xtPn3jeS\",\"email\":\"angular@ti8m.ch\",\"id\":1}"
+      "1": "{\"password\":\"$2a$10$K/FkTPXVRB9kMOBtNMo3KeFVAcz7oaQa49HVX5dbhCTn6xtPn3jeS\",\"email\":\"angular@ti8m.ch\",\"id\":1}",
+      "2": "{\"password\":\"$2a$10$XtOBtlGOlbqotfijV7ViVeJBWziyStX57FHeaemdI9RNcJ7IgVF1u\",\"email\":\"test@test.com\",\"id\":2}"
     },
     "AccessToken": {
     },
@@ -17,8 +18,8 @@
     "RoleMapping": {},
     "Role": {},
     "Contact": {
-      "1": "{\"first_name\":\"Stefan\",\"last_name\":\"Müller\",\"email\":\"foo@bar.com\",\"id\":1}",
-      "2": "{\"first_name\":\"Franz\",\"last_name\":\"Binggeli\",\"email\":\"baz@qux.com\",\"id\":2}"
+      "1": "{\"first_name\":\"John\",\"last_name\":\"Doe\",\"email\":\"jdoe@test.com\",\"user_id\":2,\"id\":1}",
+      "2": "{\"first_name\":\"John\",\"last_name\":\"Boe\",\"email\":\"jboe@test.com\",\"user_id\":2,\"id\":2}"
     }
   }
 }
