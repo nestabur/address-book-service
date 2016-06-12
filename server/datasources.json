@@ -1,0 +1,8 @@
+{
+  "contactDs": {
+    "name": "contactDs",
+    "localStorage": "",
+    "file": "data.json",
+    "connector": "memory"
+  }
+}
